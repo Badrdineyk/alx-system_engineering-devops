@@ -65,7 +65,7 @@ In this project, I learned about using the `chmod`, `sudo`, `su`, `chown`, and `
 
 * **100. Owner and group**
   * [100-change_owner_and_group](./100-change_owner_and_group): Bash script that changes the
-  owner to `betty` and the group owner to `school` for all the files and directories
+  owner to `vincent` and the group owner to `staff` for all the files and directories
   in the working directory.
 
 * **101. Symbolic links**
