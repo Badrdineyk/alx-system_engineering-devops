@@ -70,7 +70,7 @@ In this project, I learned about using the `chmod`, `sudo`, `su`, `chown`, and `
 
 * **101. Symbolic links**
   * [101-symbolic_link_permissions](./101-symbolic_link_permissions): Bash script that changes
-  the owner and the group owner of the file `hello` to `betty` and `school`, respectively.
+  the owner and the group owner of the file `hello` to `vincent` and `staff `, respectively.
 
 * **102. If only**
   * [102-if_only](./102-if_only): Bash script that changes the owner of the file `hello`
