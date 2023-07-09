@@ -65,19 +65,19 @@ In this project, I underwent an introductory crash course in the Shell. I learne
   did not exist in the parent directory or were newer than the versions in the parent working directory.
 
 * **15. Let’s move**
-  * [15-lets_move](./15-lets_move): Bash script that moves all files beginning with an uppercase
+  * [15-lets_move](./100-lets_move): Bash script that moves all files beginning with an uppercase
   letter to the directory `/tmp/u`.
 
 * **16. Clean Emacs**
-  * [16-clean_emacs](./16-clean_emacs): Bash script that deletes all files in the current working
+  * [16-clean_emacs](./101-clean_emacs): Bash script that deletes all files in the current working
   directory that end with the character `~`.
 
 * **17. Tree**
-  * [17-tree](./17-tree): Bash script that creates the directories `welcome/`,
+  * [17-tree](./102-tree): Bash script that creates the directories `welcome/`,
   `welcome/to/` and `welcome/to/school` in the current directory.
 
 * **18. Life is a series of commas, not periods**
-  * [18-commas](./18-commas): Bash script that lists all files and directories of the current
+  * [18-commas](./103-commas): Bash script that lists all files and directories of the current
   directory, including hidden ones, as follows:
     * Separated by commas (`,`).
     * Directory names end with a slash (`/`).
