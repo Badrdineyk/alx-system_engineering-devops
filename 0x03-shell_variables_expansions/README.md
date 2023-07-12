@@ -61,19 +61,19 @@ In this project, I learned about initialization files, local, global, and reserv
   environment variable `NUM` with two decimal places.
 
 * **14. Decimal to Hexadecimal**
-  * [14-decimal_to_hexadecimal](./14-decimal_to_hexadecimal): Bash script
+  * [100-decimal_to_hexadecimal](./100-decimal_to_hexadecimal): Bash script
   that converts a number in base 10 stored in the environment variable `DECIMAL` to base 16.
 
 * **15. Everyone is a proponent of strong encryption**
-  * [100-rot13](./100-rot13): Bash script that encodes and decodes text using the rot13
+  * [101-rot13](./101-rot13): Bash script that encodes and decodes text using the rot13
   encryption.
 
 * **16. The eggs of the brood need to be an odd number**
-  * [101-odd](./101-odd): Bash script that prints every other line from the input,
+  * [102-odd](./102-odd): Bash script that prints every other line from the input,
   starting with the first line.
 
 * **17. I'm an instant star. Just add water and stir.**
-  * [102-water_and_stir](./102-water_and_stir): Bash script that adds the two numbers
+  * [103-water_and_stir](./103-water_and_stir): Bash script that adds the two numbers
   stored in the environment variables `WATER` and `STIR` and prints the result.
   * `WATER` is in base `water`, `STIR` is in base `stir`, and the result is
   in base `bestchol`.
