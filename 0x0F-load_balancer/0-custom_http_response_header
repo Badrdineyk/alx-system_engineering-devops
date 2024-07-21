@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Configure Nginx so that its HTTP response contains a custom header
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+
+ufw allow 'Nginx HTTP'
+
+chmod -R 755 /var/www
+
+custom_header="add_header X-Served-By $HOSTNAME;"
+nginx_conf="/etc/nginx/sites-available/default"
+sudo sed -i "6i\\${custom_header}" "$nginx_conf"
+
+echo "Hello World!" | sudo tee /var/www/html/index.html >/dev/null
+
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html >/dev/null
+
+service nginx restart
