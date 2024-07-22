@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Configures a ufw firewall to block all incoming traffic
 
 sudo apt update
